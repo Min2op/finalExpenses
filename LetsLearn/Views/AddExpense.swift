@@ -10,6 +10,7 @@ import SwiftUI
 
 struct AddExpense: View {
     @Environment(\.dismiss) var dismiss
+    
     @State var tempexpenseName: String = ""
     @State var tempexpenseDescription: String = ""
     @State var tempexpensePrice: String = ""
@@ -63,7 +64,7 @@ struct AddExpense: View {
                                     tempexpensePrice = s
                                 }
                                 
-                                
+                                //ss
                                 
                             }
                             DatePicker(selection: $tempDateOfRecipt, in: ...Date.now, displayedComponents: .date){
